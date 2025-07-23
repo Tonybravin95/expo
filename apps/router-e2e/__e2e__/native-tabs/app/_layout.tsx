@@ -52,7 +52,7 @@ export default function Layout() {
               drawable="ic_search"
             />
             <Badge>9+</Badge>
-            <Label>Discover</Label>
+            <Label>Explore</Label>
           </NativeTabs.Trigger>
           {activeTabs.map((tab) => (
             <NativeTabs.Trigger key={tab} name={tab}>
